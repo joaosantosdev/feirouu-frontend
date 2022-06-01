@@ -81,7 +81,7 @@ module.exports = configure(function (ctx) {
       server: {
         type: 'http',
       },
-      port: 8080,
+      port: process.env.SERVER_PORT,
       open: true, // opens browser window automatically
     },
 
@@ -144,8 +144,8 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: 'Quasar App',
-        short_name: 'Quasar App',
+        name: 'Feirouu',
+        short_name: 'Feirouu',
         description: 'A Quasar Framework app',
         display: 'standalone',
         orientation: 'portrait',

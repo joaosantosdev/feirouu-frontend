@@ -1,37 +1,30 @@
-# Quasar App (feirouu-frontend)
+# TCC - Frontend
 
-A Quasar Framework app
+### Framework
+* Typescript + Vue
 
-## Install the dependencies
 
-```bash
+#### Outras partes que compõem a aplicação
+
+- [Backend](https://github.com/joaosantosdev/feirouu-backend)
+
+
+#### Atenção
+* Baixar o node, docker e npm
+* Configurar .env url do backend - BASE_URL
+
+### Rodar a aplicação com Docker
+```
+docker-compose up -d
+Rodando em: http://localhost:8081/
+```
+
+### Rodar a aplicação sem Docker
+```
+npm install -g @quasar/cli
 npm install
-```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-
-```bash
 quasar dev
+Rodando em: http://localhost:8081/
 ```
 
-### Lint the files
 
-```bash
-npm run lint
-```
-
-### Format the files
-
-```bash
-npm run format
-```
-
-### Build the app for production
-
-```bash
-quasar build
-```
-
-### Customize the configuration
-
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).

@@ -1,8 +1,8 @@
 {
   "name": "feirouu-frontend",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "Feirouu",
+  "productName": "Feirouu",
   "author": "João Santos <joaosantosdev@hotmail.com>",
   "private": true,
   "scripts": {
